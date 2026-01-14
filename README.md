@@ -214,7 +214,7 @@ Restart `proxy-server.js` after server-side changes. Client-side changes require
 
 ## Known Limitations
 
-- No authentication/rate limiting on proxy endpoints (see security plan)
+- No authentication/rate limiting on proxy endpoints
 - Mermaid diagram syntax can fail with special characters (auto-retry in place)
 - Voice input requires Deepgram API key with Member role
 - MCP tools require proxy server running on same host
@@ -222,7 +222,6 @@ Restart `proxy-server.js` after server-side changes. Client-side changes require
 ## Documentation
 
 - **PROJECT-SUMMARY.md**: Comprehensive project documentation
-- **CODE-REVIEW.md**: Security and code quality review (6.5/10)
 
 ## License
 
