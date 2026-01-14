@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "latencyBudgetsMs": {
+    "chat": 1500,
+    "build": 3000
+  },
+  "servers": [
+    {
+      "id": "Context7",
+      "transport": "http",
+      "url": "http://localhost:32001/mcp",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--transport",
+        "http",
+        "--port",
+        "32001"
+      ],
+      "env": {},
+      "working_directory": null
+    },
+    {
+      "id": "n8n-mcp",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "n8n-mcp"
+      ],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true"
+      },
+      "working_directory": null
+    }
+  ],
+  "allowTools": ["*"]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "claude-code-demo-4",
+  "version": "1.0.0",
+  "description": "n8n workflow documentation and GPT-5 Nano integration examples with interactive workflow planner",
+  "main": "workflow-planner/index.html",
+  "scripts": {
+    "start": "cd workflow-planner && python3 server.py",
+    "dev": "cd workflow-planner && python3 server.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promptadvisers/claude-code-demo-4.git"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "gpt-5-nano",
+    "ai",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/promptadvisers/claude-code-demo-4/issues"
+  },
+  "homepage": "https://github.com/promptadvisers/claude-code-demo-4#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3",
+    "@supabase/supabase-js": "^2.87.1",
+    "n8n-mcp": "^2.33.0",
+    "zod": "^3.25.76"
+  }
+}

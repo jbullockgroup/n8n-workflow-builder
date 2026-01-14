@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Development tools
+.claude/
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.example
+
+# System files
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Session history artifacts
+workflow-planner/phase-*.md
+workflow-planner/project-summary-*.md
+workflow-planner/rebuild-plan
